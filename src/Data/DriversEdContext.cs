@@ -8,7 +8,7 @@ namespace Data
   {
     public DriversEdContext()
     {
-      // Database.SetInitializer<DriversEdContext>(null);
+      Database.SetInitializer<DriversEdContext>(null);
     }
 
     public DbSet<Driver> Drivers { get; set; }
